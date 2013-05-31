@@ -1,5 +1,4 @@
-When having custom subclasses of UIViews (even empty ones) localisations don't get picked up.
-===
+**When having custom subclasses of UIViews (even empty ones) localisations don't get picked up.**
 
 Steps to reproduce
 
