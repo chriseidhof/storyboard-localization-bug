@@ -18,6 +18,7 @@
 		83B16E6117573F5400A11753 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B16E6017573F5400A11753 /* Default-568h@2x.png */; };
 		83B16E6417573F5400A11753 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B16E6217573F5400A11753 /* MainStoryboard.storyboard */; };
 		83B16E6717573F5400A11753 /* CBEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B16E6617573F5400A11753 /* CBEViewController.m */; };
+		83B16E7317573FC200A11753 /* CBELabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B16E7217573FC200A11753 /* CBELabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +35,13 @@
 		83B16E5C17573F5400A11753 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		83B16E5E17573F5400A11753 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		83B16E6017573F5400A11753 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		83B16E6317573F5400A11753 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		83B16E6517573F5400A11753 /* CBEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBEViewController.h; sourceTree = "<group>"; };
 		83B16E6617573F5400A11753 /* CBEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBEViewController.m; sourceTree = "<group>"; };
+		83B16E6D17573F8600A11753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		83B16E6F17573F9100A11753 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83B16E7017573F9F00A11753 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/MainStoryboard.strings; sourceTree = "<group>"; };
+		83B16E7117573FC200A11753 /* CBELabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBELabel.h; sourceTree = "<group>"; };
+		83B16E7217573FC200A11753 /* CBELabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBELabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,8 @@
 				83B16E6517573F5400A11753 /* CBEViewController.h */,
 				83B16E6617573F5400A11753 /* CBEViewController.m */,
 				83B16E5117573F5400A11753 /* Supporting Files */,
+				83B16E7117573FC200A11753 /* CBELabel.h */,
+				83B16E7217573FC200A11753 /* CBELabel.m */,
 			);
 			path = LocalizationTest;
 			sourceTree = "<group>";
@@ -143,6 +150,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
+				nl,
 			);
 			mainGroup = 83B16E3E17573F5400A11753;
 			productRefGroup = 83B16E4817573F5400A11753 /* Products */;
@@ -177,6 +186,7 @@
 				83B16E5717573F5400A11753 /* main.m in Sources */,
 				83B16E5B17573F5400A11753 /* CBEAppDelegate.m in Sources */,
 				83B16E6717573F5400A11753 /* CBEViewController.m in Sources */,
+				83B16E7317573FC200A11753 /* CBELabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +197,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				83B16E5417573F5400A11753 /* en */,
+				83B16E6F17573F9100A11753 /* nl */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -194,7 +205,8 @@
 		83B16E6217573F5400A11753 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				83B16E6317573F5400A11753 /* en */,
+				83B16E6D17573F8600A11753 /* Base */,
+				83B16E7017573F9F00A11753 /* nl */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
